@@ -460,14 +460,14 @@ let TDD2 = [4, 1800, 1850];
 let single_slots2 = [TA2, TB2, TC2, TD2, TE2, TF2, TG2];
 
 for (let i = 0; i < mrng_slots.length; i++) {
-    for (let j = 0; j < 2; j++) {
+	for (let j = 0; j < 2; j++) {
 
-        aftr_slots[i][j][1] = mrng_slots[i][j][1] + 600;
-        aftr_slots[i][j][2] = mrng_slots[i][j][2] + 600;
+		aftr_slots[i][j][1] = mrng_slots[i][j][1] + 600;
+		aftr_slots[i][j][2] = mrng_slots[i][j][2] + 600;
 
-    }
-    single_slots2[i][1] = single_slots1[i][1] + 600;
-    single_slots2[i][2] = single_slots1[i][2] + 600;
+	}
+	single_slots2[i][1] = single_slots1[i][1] + 600;
+	single_slots2[i][2] = single_slots1[i][2] + 600;
 }
 
 let theory = [A1, A2, B1, B2, C1, C2, D1, D2, E1, E2, F1, F2, G1, G2, TA1, TA2, TB1, TB2, TC1, TC2, TD1, TD2, TE1, TE2, TF1, TF2, TG1, TG2, TAA1, TAA2, TBB2, TCC1, TDD2, V1, V2];
@@ -509,3 +509,42 @@ let L27 = [4, 0951, 1040];
 let L28 = [4, 1041, 1130];
 let L29 = [4, 1140, 1230];
 let L30 = [4, 1231, 1320];
+
+
+let L31 = [0, 1400, 1450];
+let L32 = [0, 1451, 1540];
+let L33 = [0, 1551, 1640];
+let L34 = [0, 1641, 1730];
+let L35 = [0, 1740, 1830];
+let L36 = [0, 1831, 1920];
+
+let L37 = [1, 1400, 1450];
+let L38 = [1, 1451, 1540];
+let L39 = [1, 1551, 1640];
+let L40 = [1, 1641, 1730];
+let L41 = [1, 1740, 1830];
+let L42 = [1, 1831, 1920];
+
+let L43 = [2, 1400, 1450];
+let L44 = [2, 1451, 1540];
+let L45 = [2, 1551, 1640];
+let L46 = [2, 1641, 1730];
+let L47 = [2, 1740, 1830];
+let L48 = [2, 1831, 1920];
+
+let L49 = [3, 1400, 1450];
+let L50 = [3, 1451, 1540];
+let L51 = [3, 1551, 1640];
+let L52 = [3, 1641, 1730];
+let L53 = [3, 1740, 1830];
+let L54 = [3, 1831, 1920];
+
+let L55 = [4, 1400, 1450];
+let L56 = [4, 1451, 1540];
+let L57 = [4, 1551, 1640];
+let L58 = [4, 1641, 1730];
+let L59 = [4, 1740, 1830];
+let L60 = [4, 1831, 1920];
+
+let lab_slots = [L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L20, L21, L22, L23, L24, L25, L26, L27, L28, L29, L30, L31, L32, L33, L34, L35, L36, L37, L38, L39, L40, L41, L42, L43, L44, L45, L46, L47, L48, L49, L50, L51, L52, L53, L54, L55, L56, L57, L58, L59, L60];
+console.log(lab_slots);
