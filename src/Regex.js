@@ -431,3 +431,11 @@ Registered and Approved`;
 let check =/([a-zA-Z]+[0-9]|\+[a-zA-Z]+[0-9])/g;
 let bruteforce = /\n(L1|L2|L3|L4|L5|L6|L7|L8|L9|L10|L11|L12|L13|L14|L15|L16|L17|L18|L19|L20|L21|L22|L23|L24|L25|L26|L27|L28|L29|L30|L31|L32|L33|L34|L35|L36|L37|L38|L39|L40|L41|L42|L43|L44|L45|L46|L47|L48|L49|L50|L51|L52|L53|L54|L55|L56|L57|L58|L59|L60|A1|A2|B1|B2|C1|C2|D1|D2|E1|E2|F1|F2|G1|G2|TA1|TA2|TB1|TB2|TC1|TC2|TD1|TD2|TE1|TE2|TF1|TF2|TG1|TG2|TAA1|TAA2|TBB2|TCC1|TDD2|V1|V2)/g;
 console.log(test.match(bruteforce));
+
+// Getting o/p:
+// '\nTG1', '\nTG1',
+// '\nB2',  '\nL2',
+// '\nL2',  '\nC1',
+// '\nL4',  '\nF2',
+// '\nL7',  '\nL7',
+// '\nD1'
